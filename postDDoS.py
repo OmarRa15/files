@@ -5,7 +5,7 @@ import random
 def random_string(length):
 	return ''.join(random.choices(string.ascii_uppercase + string.digits, k = length))    
 
-url = 'http://http://54.226.92.36:8080//stdSignup'
+url = 'http://54.226.92.36:8080/stdSignup'
 
 def send_post():
 
